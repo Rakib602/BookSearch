@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-6</title>
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Seaching Items -->
+        <div class="row">
+            <div class="col">
+                <div class="searchBox text-center">
+                    <h1 class="text-center mt-5 mb-2 text-success">Welcome to the sea of ​​knowledge</h1>
+                    <p class="text-center fs-5">Change thinking by Read something </p>
+                    <div class="input-group mb-3 w-50 mx-auto">
+                        <input id="input" type="text" class="form-control" placeholder="Search Here to gain konwledge">
+                        <button onclick="search()" class="btn btn-success ml-3">Search</button>
+                    </div>
+                    <h5 class="text-center mt-3"> Enjoy your book and change the world by your thinking</h5>
+                    <div id="result">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data output -->
+        <div id=''>
+            <div class="row" id="mainDiv">
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- External JavaScript  -->
+    <script src="book.js"></script>
+</body>
+
+</html>
